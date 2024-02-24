@@ -1,0 +1,71 @@
+<html>
+<head>
+   <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='style.css') }}">
+
+</head>
+
+<div class="container">
+      <div class="text">
+         Plagiarism Checker
+      </div>
+      <form action="/" method="post">
+        <div class="form-row">
+            <div class="input-data">
+               <div class="underline"></div>
+               <label for="">Enter the language</label>
+            </div>
+         </div>
+        <div class="form-row">
+            <div class="input-data radio">
+              <input type="radio" name="options" id="contactEmail" required>
+              <label for="contactEmail">English</label>
+            </div>
+            <div class="input-data radio">
+              <input type="radio" name="options" id="contactPhone">
+              <label for="contactPhone">French</label>
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="input-data radio">
+              <input type="radio" name="options" id="contactEmail" required>
+              <label for="contactEmail">Spanish</label>
+            </div>
+            <div class="input-data radio">
+              <input type="radio" name="options" id="contactPhone">
+              <label for="contactPhone">German</label>
+            </div>
+          </div>
+          
+         <div class="form-row">
+            <div class="input-data">
+               <input type="text" name="fname" required>
+               <div class="underline"></div>
+               <label for="">Enter first document</label>
+            </div>
+         </div>
+         <div class="form-row">
+            <div class="input-data">
+               <input type="text" name="lname" required>
+               <div class="underline"></div>
+               <label for="">Enter second document</label>
+            </div>
+         </div>
+         <div class="form-row">
+            <div class="input-data">
+               <input type="text" name="percentage" required>
+               <div class="underline"></div>
+               <label for="">Enter the allowed plagiarism percentage</label>
+            </div>
+         </div>
+         
+        <br />
+        <div class="form-row submit-btn">
+            <div class="input-data">
+                <div class="inner"></div>
+                <input type="submit" value="submit">
+            </div>
+        </div>
+      </form>
+      </div>
+</html>

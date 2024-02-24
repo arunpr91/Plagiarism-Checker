@@ -1,0 +1,39 @@
+/* Reset some default styles for better consistency */
+body, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the container */
+.container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Style the h1 element */
+h1 {
+    font-size: 28px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Style the paragraph elements inside the container */
+.container p {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+/* Style the link for "Go back" */
+.container a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #007bff; /* Blue color, you can change it as needed */
+    margin-top: 20px;
+    display: inline-block;
+}
+
+/* Add hover effect to the link */
+.container a:hover {
+    text-decoration: underline;
+    color: #0056b3; /* Slightly darker blue on hover */
+}

@@ -1,0 +1,13 @@
+<html>
+<head>
+   <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='style.css') }}">
+   <h1>Plagiarism Checker Results</h1>
+</head>
+
+
+<div class="container">
+    <p>{{ result }}</p>
+    <p>Jaccard Similarity: {{ similarity }}%</p>
+    <a href="/">Go back</a>
+</div>
+</html>
